@@ -1,6 +1,13 @@
 # Capstone 1 - Inventory Management System User Interface (UI)
 
-Your task is to Build an Inventory Management for the business of your choice.  It can be for a grocery store, a car dealership, a jewelry shop, a cell phone store, a book store, or any other legitimate business that maintains an inventory. Take some time to plan out your strategy for completing this project.  As the saying goes, <i>"If you fail to plan, you plan to fail."</i>
+Your task is to Build an Inventory Management for the business of your choice.
+
+  It can be for a grocery store, a car dealership, a jewelry shop, a cell phone store, a book store, or any other legitimate business that maintains an inventory. 
+
+Take some time to plan out your strategy for completing this project.  
+
+
+As the saying goes, <i>"If you fail to plan, you plan to fail."</i>
 
 In the root of this repository, you will find a a pdf file outlining a methodology to approaching & solving any problem.  The file is called : <code>"Polya's Problem Solving Framework.pdf"</code>  Feel free to research and learn more about the framework online, or simply use the .pdf file as a primary reference.
 
