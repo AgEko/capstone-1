@@ -1,3 +1,8 @@
+a{
+  text-decoration: none;
+}
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +41,117 @@
     transform: rotate(360deg);
   }
 }
+
+nav{
+  color: red;
+  height: 150px;
+  background-color: green;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+
+.navIcon{
+  width: 80px;
+  resize: contain;
+  height: 80px;
+  padding-left: 60px;
+}
+
+.flex-container{
+  display: flex;
+  
+}
+
+.sidebar{
+  width: 20%;
+  height: 400px;
+  background-color: orange;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.navItem {
+  display: flex;
+  background: tomato;
+  width: 130px;
+  height: 70px;
+  margin: 50px;
+  border-radius: 20%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-page{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+
+
+.filter-main{
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  list-style: none;
+  background-color: orange;
+  flex: 3;
+}
+
+.store-display{
+  display: flex;
+  height: 100px;
+  background-color: yellow;
+  flex: 5;
+}
+
+.store-display-inner{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+
+.store-display-item{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  color: white
+}
+
+
+
+.cart{
+  display: flex;
+  height: 100px;
+  background-color: pink;
+  flex: 2; 
+}
+
+.footer{
+  display:flex;
+  height: 100px;
+  width: 100%;
+  background-color: aqua;
+}
+
+
+

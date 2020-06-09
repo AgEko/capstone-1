@@ -64,12 +64,12 @@ The App must be created using the <code>React.js</code> framework.
 
 ## ********************************
 ## Git Instructions
-- [ ] Create a template copy of this repository by clicking : "Use this template"
-- [ ] Name the repository the same name as the master template repository.  
-- [ ] Add your TA as collaborator
-- [ ] Clone YOUR repo to your local computer
-- [ ] Create a new branch: <code>git checkout -b `<firstName-lastName>`</code>.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Create a template copy of this repository by clicking : "Use this template"
+- [x] Name the repository the same name as the master template repository.  
+- [x] Add your TA as collaborator
+- [x] Clone YOUR repo to your local computer
+- [x] Create a new branch: <code>git checkout -b `<firstName-lastName>`</code>.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push all of your commits: <code>git push origin `<firstName-lastName>`</code>.
 - [ ] When ready for your TA to review, open a Pull Request (PR) and add your TA as a collaborator.
 ## ********************************

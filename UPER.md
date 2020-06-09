@@ -25,9 +25,7 @@ userCart must be able to hold multiples of any item.
 <h2>
     2. Planning the Solution
 </h2>
-'Web' will assist in designing the template for the site. 
-  -from scratch go to HTML and CSS exercises
-    need this first (a place to place the stuff)
+Make wireframe of site. One page || two
 
 
 
@@ -43,10 +41,37 @@ Need components for
         -Objects of items
     -userCart 
 
+Will need a theme for site, Not necessary to see if components will work.
+try nice a* pens
+
 <h2>
     3. Executing the Plan
 </h2>
-*Starting with making the site using WebFlow
+[]Not Started [-]Basic [=]Linked [+] Polished [X] Xtra 'SharkRAD'
+
+[]Start by making frame to set site in.
+    []Navbar
+        [-]Logo
+        [-]storeBtn
+        [-]About
+        []CartBtn(Transitions colours to grab user attention || enlarge and shrink back to place || must expand left to take 90% of screen. accounting for whitespace between end left/right(ME LIEK DIS) click again to return view(react element should fill container when expanded. Use a list view, a new grid would be more difficult to read))
+    all items inline
+       
+
+
+
+
+    []Cart, sticky right side
+        []Holds a list of current items added from storeInventory
+        []Subtotal for items 
+        []buy button (paypal has a button generator; is in html. May cause issues if imported into react.js)
+    []Filters, sticky left side
+        Filters for different tags on items 
+    []flex grid for sales items, in center
+        []Three wide, centered
+
+    []Make the background something like officespace clean, the pens might get weird but keep the background not pull attention
+
 *
 *
 *
