@@ -49,30 +49,33 @@ try nice a* pens
 </h2>
 []Not Started [-]Basic [=]Linked [+] Polished [X] Xtra 'SharkRAD'
 
-[]Start by making frame to set site in.
-    []Navbar
+[-]Start by making frame to set site in.
+    [-]Navbar
         [-]Logo
-        [-]storeBtn
-        [-]About
-        [?]CartBtn(href => cart page)
+        [-]store
+        [-]CartBtn(href => cart page)
+            []Running total of items Bubble
     [-]all items inline
-       
+    
+    []Filters Section,  left side
+       [] Filters for different tags on items 
+       []Dropdown for filter
 
+    []flex grid for sales items, in center/right
+        [-]Four wide, 2nd column
 
-
-
-    []Cart,  right side
-        []Holds a list of current items added from storeInventory
+    
+    []Cart, 
+        [-]new page
+        []Holds a list for current items added from storeInventory
         []Subtotal for items 
         []buy button (paypal has a button generator; is in html. May cause issues if imported into react.js)
-    []Filters,  left side
-        Filters for different tags on items 
-    []flex grid for sales items, in center
-        []Three wide, centered
 
-    []Make the background something like officespace clean, the pens might get weird but keep the background not pull attention
 
-*
+    []Make the background something like officespace clean--- Scratch that we going full unga bunga now. Nose bones, clubs and dino dogs
+
+[]Store Page 
+    []
 *
 *
 *

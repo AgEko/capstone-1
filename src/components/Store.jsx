@@ -1,22 +1,12 @@
-import React, {useState, useEffect} from 'react'
-import inventory from '../inventory.json'
-
+import React from 'react'
+import Filter from './Filter'
+import StoreDisplay from './StoreDisplay'
 
 function Store() {
-
-    
-    
-
-    
-
-
-
-
     return (
-        <div>
-
-        <h1> Store page</h1>
-
+        <div className="main-page">
+            <Filter />
+            <StoreDisplay />
         </div>
     );
 }

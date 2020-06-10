@@ -19,3 +19,64 @@ nav ul{
     list-style: none;
 }
 
+.main-page{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+  }
+  
+  
+  .filter-main{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    list-style: none;
+    background-color: orange;
+    flex: 1;
+  }
+  
+  .store-display{
+    display: flex;
+    height: 100px;
+    background-color: yellow;
+    flex: 5;
+  }
+  
+  .store-display-inner{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .store-display-item{
+    display: flex;
+    Flex: 1 0 21%;
+    height: 400px;
+    width: 260px ;
+    margin: 10px 30px 50px 30px;
+    background-color: purple;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .store-display-item ul{
+    list-style: none;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .store-display-item ul .name{
+    font-size: 1.8rem;
+    
+  }
+  
+  .store-display-item button{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+  }

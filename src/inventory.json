@@ -14,8 +14,8 @@
       "id": "2",
       "name": "Garbage Disposal",
       "make": "Gork & Mork",
-      "tags": "appliance",
-      "image": "/images/logo512.png",
+      "tags": "kitchen",
+      "image": "/images/logo192.png",
       "serial": "404",
       "price": "200.01"
     },
@@ -27,6 +27,88 @@
       "image": "/images/logo192.png",
       "serial": "404",
       "price": "-70.01"
+      },
+      {
+        "id": "4",
+        "name": "Juicer",
+        "make": "Gork & Mork",
+        "tags": "kitchen",
+        "image": "/images/logo192.png",
+        "serial": "404",
+        "price": "200.01"
+      },
+      {
+        "id": "5",
+        "name": "Can Opener",
+        "make": "Gork & Mork",
+        "tags": "kitchen",
+        "image": "/images/logo192.png",
+        "serial": "404",
+        "price": "200.01"
+      },
+      {
+        "id": "6",
+        "name": "Rotisserie Kit",
+        "make": "Gork & Mork",
+        "tags": "appliance",
+        "image": "/images/logo192.png",
+        "serial": "404",
+        "price": "200.01"
+      },
+      {
+        "id": "7",
+        "name": "Sewing Machine",
+        "make": "Glorb",
+        "tags": "appliance",
+        "image": "/images/logo192.png",
+        "serial": "404",
+        "price": "200.01"
+      },
+      {
+        "id": "8",
+        "name": "Telephone",
+        "make": "Glorb",
+        "tags": "appliance",
+        "image": "/images/logo192.png",
+        "serial": "404",
+        "price": "200.01"
+      },
+      {
+        "id": "9",
+        "name": "Vacuum",
+        "make": "ZugZug",
+        "tags": "appliance",
+        "image": "/images/logo192.png",
+        "serial": "404",
+        "price": "200.01"
+      },
+      {
+        "id": "10",
+        "name": "Lawn Mower",
+        "make": "Borgle",
+        "tags": "yard",
+        "image": "/images/logo192.png",
+        "serial": "404",
+        "price": "200.01"
+      },
+      {
+        "id": "11",
+        "name": "Hedge Trimmer",
+        "make": "Borgle",
+        "tags": "yard",
+        "image": "/images/logo192.png",
+        "serial": "404",
+        "price": "200.01"
+      },
+      {
+        "id": "12",
+        "name": "Water Heater",
+        "make": "Borgle",
+        "tags": "yard",
+        "image": "/images/logo192.png",
+        "serial": "404",
+        "price": "200.01"
       }
+      
   ]
 }
