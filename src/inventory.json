@@ -1,0 +1,28 @@
+{
+    "person": 
+    {
+        "name": "John",
+        "lastname": "Doe",
+        "interests":
+        [
+        "hiking",
+        "skiing"
+        ],
+        "age": 40
+  },
+
+  "Product":
+  {
+    "name": "Bunga Dungus",
+    "manu": "Wet Gas",
+    "tags": "Yees",
+    "img": "<img src = {process.env.PUBLIC_URL + './logo192.png'} alt = 'TH.com logo' className = 'logo' />",
+    "serial": "404",
+    "price": "--50.01"
+
+  }
+
+
+
+
+}

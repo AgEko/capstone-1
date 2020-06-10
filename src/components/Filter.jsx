@@ -6,9 +6,16 @@ import { Checkbox, List, ListItemText, ListItem } from '@material-ui/core';
 const Filters = (props) => {
    
     return (
-        <div>
+        <div className="filter-main"> 
+            <form>
+                <input 
+                placeholder='Search'
+                type='text'
+                >
+                </input>
+            </form>
             
-            <List className="flex-container  filter-main">
+            <List >
             <h3>Filters</h3>
                 <ListItem>
                     <Checkbox>VOID need balonga</Checkbox>
@@ -31,7 +38,6 @@ const Filters = (props) => {
                         Checkbox 03
                     </ListItemText>   
                 </ListItem>
-
             </List>
             
         </div>

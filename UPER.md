@@ -54,18 +54,18 @@ try nice a* pens
         [-]Logo
         [-]storeBtn
         [-]About
-        []CartBtn(Transitions colours to grab user attention || enlarge and shrink back to place || must expand left to take 90% of screen. accounting for whitespace between end left/right(ME LIEK DIS) click again to return view(react element should fill container when expanded. Use a list view, a new grid would be more difficult to read))
-    all items inline
+        [?]CartBtn(href => cart page)
+    [-]all items inline
        
 
 
 
 
-    []Cart, sticky right side
+    []Cart,  right side
         []Holds a list of current items added from storeInventory
         []Subtotal for items 
         []buy button (paypal has a button generator; is in html. May cause issues if imported into react.js)
-    []Filters, sticky left side
+    []Filters,  left side
         Filters for different tags on items 
     []flex grid for sales items, in center
         []Three wide, centered

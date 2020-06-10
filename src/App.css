@@ -111,7 +111,7 @@ nav{
   flex-direction: column;
   list-style: none;
   background-color: orange;
-  flex: 3;
+  flex: 1;
 }
 
 .store-display{
@@ -123,6 +123,7 @@ nav{
 
 .store-display-inner{
   display: flex;
+  padding-top: 20px;
   width: 100%;
   flex-direction: row;
   justify-content:space-evenly;
@@ -131,11 +132,32 @@ nav{
 
 .store-display-item{
   display: flex;
-  height: 100px;
-  width: 100px;
+  height: 400px;
+  width: 260px ;
+  margin-bottom: 50px;
   background-color: purple;
-  color: white
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.store-display-item ul{
+  list-style: none;
+  text-align: left;
+  width: 100%;
+}
+
+.store-display-item ul .name{
+  font-size: 1.8rem;
+  
+}
+
+.store-display-item button{
+  height: 50px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
 
 
 

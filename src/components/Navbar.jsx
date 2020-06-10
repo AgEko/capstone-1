@@ -8,9 +8,9 @@ const Navbar = (props) => {
             <nav>
                 <img  className='navIcon' src={Logo} alt="website"/>
                 <ul className="navbar">
-                    <a href="#"><li className="navItem">Home</li></a>
-                    <a href="#"><li className="navItem">Shop</li></a>
-                    <a href="#"><li className="navItem">Cart</li></a>
+                    <a href="https://www.google.com" target='_blank'><li className="navItem">Home</li></a>
+                    <a href="https://www.google.com" target='_blank'><li className="navItem">Shop</li></a>
+                    <a href="https://www.google.com" target='_blank'><li className="navItem">Cart</li></a>
                 </ul>
             </nav>
 
