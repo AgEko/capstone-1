@@ -1,28 +1,32 @@
 {
-    "person": 
+  "products" : 
+  [
     {
-        "name": "John",
-        "lastname": "Doe",
-        "interests":
-        [
-        "hiking",
-        "skiing"
-        ],
-        "age": 40
-  },
-
-  "Product":
-  {
-    "name": "Bunga Dungus",
-    "manu": "Wet Gas",
-    "tags": "Yees",
-    "img": "<img src = {process.env.PUBLIC_URL + './logo192.png'} alt = 'TH.com logo' className = 'logo' />",
-    "serial": "404",
-    "price": "--50.01"
-
-  }
-
-
-
-
+      "id": "1",
+      "name": "Bedrock Baseline",
+      "make": "Schweeb",
+      "tags": "car",
+      "image": "/images/logo192.png",
+      "serial": "404",
+      "price": "-50.01"
+    },
+    {
+      "id": "2",
+      "name": "Garbage Disposal",
+      "make": "Gork & Mork",
+      "tags": "appliance",
+      "image": "/images/logo512.png",
+      "serial": "404",
+      "price": "200.01"
+    },
+    {
+      "id": "3",
+      "name": "Alarm Clock",
+      "make": "Glorb",
+      "tags": "car",
+      "image": "/images/logo192.png",
+      "serial": "404",
+      "price": "-70.01"
+      }
+  ]
 }

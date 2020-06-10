@@ -1,0 +1,179 @@
+a{
+  text-decoration: none;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav{
+  color: red;
+  height: 150px;
+  background-color: green;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+
+.navIcon{
+  width: 80px;
+  resize: contain;
+  height: 80px;
+  padding-left: 60px;
+}
+
+.flex-container{
+  display: flex;
+  
+}
+
+.sidebar{
+  width: 20%;
+  height: 400px;
+  background-color: orange;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.navItem {
+  display: flex;
+  background: tomato;
+  width: 130px;
+  height: 70px;
+  margin: 50px;
+  border-radius: 20%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-page{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+
+
+.filter-main{
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  list-style: none;
+  background-color: orange;
+  flex: 1;
+}
+
+.store-display{
+  display: flex;
+  height: 100px;
+  background-color: yellow;
+  flex: 5;
+}
+
+.store-display-inner{
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+
+.store-display-item{
+  display: flex;
+  height: 400px;
+  width: 260px ;
+  margin-bottom: 50px;
+  background-color: purple;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.store-display-item ul{
+  list-style: none;
+  text-align: left;
+  width: 100%;
+}
+
+.store-display-item ul .name{
+  font-size: 1.8rem;
+  
+}
+
+.store-display-item button{
+  height: 50px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.cart{
+  display: flex;
+  height: 100px;
+  background-color: pink;
+  flex: 2; 
+}
+
+.footer{
+  display:flex;
+  height: 100px;
+  width: 100%;
+  background-color: aqua;
+}
+
+
+

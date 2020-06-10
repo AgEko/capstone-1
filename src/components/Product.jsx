@@ -1,17 +1,18 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 
-class Product {
-    name = '';
-    serial = '';
-    price = '';
-    manufacturer = '';
-    tags = '';
-    img = '';
+function product(props) {
+
+
+
+    
+    return (
+        <div>
+            <img src= {props.product.image}/>
+            {props.product.name}
+            {props.product.serial}
+
+        </div>
+    )
 }
-
-
-
-export default Product;
-
-// to make images come up, put in public folder, then do this <img src = {process.env.PUBLIC_URL + './image-assets/TH-logo.jpg'} alt = 'TH.com logo' className = 'logo' /> props to Abigail!
+export default product;

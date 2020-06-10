@@ -10,6 +10,7 @@ const MainPage = (props) => {
             <Filter />
             <StoreDisplay />
             <Cart />
+            
         </div>
     )
 }
