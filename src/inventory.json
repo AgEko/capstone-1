@@ -3,34 +3,34 @@
   [
     {
       "id": 0,
-      "name": "Bedrock Baseline",
+      "name": "ChiselQuick 3000BC",
       "make": "Schweeb",
-      "tag": "car",
-      "image": "/images/logo192.png",
+      "tag": "personal",
+      "image": "/images/camera.jpg",
       "serial": "404",
-      "price": "-50.01",
+      "price": "240.00",
       "inventoryQty": 3,
       "cartQty": 1
     },
     {
       "id": 1,
-      "name": "Garbage Disposal",
+      "name": "Can Opener",
       "make": "Gork & Mork",
       "tag": "kitchen",
-      "image": "/images/logo192.png",
+      "image": "/images/can-opener.jpg",
       "serial": "404",
-      "price": "200.01",
+      "price": "8.00",
       "inventoryQty": 3,
       "cartQty": 1
     },
     {
       "id": 2,
-      "name": "Alarm Clock",
-      "make": "Glorb",
-      "tag": "appliances",
-      "image": "/images/logo192.png",
+      "name": "FootMobile",
+      "make": "Florb",
+      "tag": "car",
+      "image": "/images/car.jpg",
       "serial": "404",
-      "price": "-70.01",
+      "price": "8500.01",
       "inventoryQty": 3,
       "cartQty": 1
       },
@@ -39,81 +39,82 @@
         "name": "Juicer",
         "make": "Gork & Mork",
         "tag": "kitchen",
-        "image": "/images/logo192.png",
+        "image": "/images/juicer.jpg",
         "serial": "404",
-        "price": "200.01"
+        "price": "15.99"
       },
       {
         "id": 4,
-        "name": "Can Opener",
-        "make": "Gork & Mork",
-        "tag": "kitchen",
-        "image": "/images/logo192.png",
+        "name": "Rotisserie Kit",
+        "make": "Zorb's Worl'",
+        "tag": "yard",
+        "image": "/images/fire-spit.jpg",
         "serial": "404",
-        "price": "200.01"
+        "price": "45.50"
       },
       {
         "id": 5,
-        "name": "Rotisserie Kit",
+        "name": "G&M Garbage Disposal",
         "make": "Gork & Mork",
-        "tag": "yard",
-        "image": "/images/logo192.png",
+        "tag": "kitchen",
+        "image": "/images/garbage-disposal-bird.jpg",
         "serial": "404",
-        "price": "200.01"
+        "price": "89.99"
       },
       {
         "id": 6,
         "name": "Sewing Machine",
-        "make": "Glorb",
+        "make": "Chi-Chi's Chisel",
         "tag": "appliance",
-        "image": "/images/logo192.png",
+        "image": "/images/sewing-machine.jpg",
         "serial": "404",
-        "price": "200.01"
+        "price": "146.00"
       },
       {
         "id": 7,
         "name": "Telephone",
-        "make": "Glorb",
+        "make": "Me Talk Far",
         "tag": "appliance",
-        "image": "/images/logo192.png",
+        "image": "/images/phone-horn.jpg",
         "serial": "404",
-        "price": "200.01"
+        "price": "62.00"
       },
       {
         "id": 8,
         "name": "Vacuum",
-        "make": "ZugZug",
+        "make": "Hodor",
         "tag": "appliance",
-        "image": "/images/logo192.png",
+        "image": "/images/vacuum.jpg",
         "serial": "404",
-        "price": "200.01"
+        "price": "180.00"
       },
       {
         "id": 9,
         "name": "Lawn Mower",
-        "make": "Borgle",
+        "make": "Gather's Secret",
         "tag": "yard",
-        "image": "/images/logo192.png",
+        "image": "/images/lawnmower.jpg",
         "serial": "404",
-        "price": "200.01"
+        "price": "58.00"
       },
       {
         "id": 10,
         "name": "Hedge Trimmer",
-        "make": "Borgle",
+        "make": "Zorb's Worl",
         "tag": "yard",
-        "image": "/images/logo192.png",
+        "image": "/images/hedgetrimmer.jpg",
         "serial": "404",
-        "price": "200.01"
+        "price": "19.00"
       },
       {
         "id": 11,
         "name": "Water Heater",
-        "make": "Borgle",
+        "make": "Slate's Stuff",
         "tag": "yard",
-        "image": "/images/logo192.png",
+        "image": "/images/water-heater.jpg",
         "serial": "404",
-        "price": "200.01"
+        "price": "340.00"
       } 
+
   ]
 }

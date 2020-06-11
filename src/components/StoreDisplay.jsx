@@ -21,7 +21,7 @@ const Filters = ({products, setProducts, cartItems, setCartItems, cartTotal, set
 
             setProducts={setProducts} 
             cartItems={cartItems}
-            setCartItem={setCartItems}
+            setCartItems={setCartItems}
             cartTotal={cartTotal}
             setCartTotal={setCartTotal}
             />

@@ -1,3 +1,37 @@
+
+@font-face {
+  font-family: "PrehistoricCaveman";
+  src: url("./assets/fonts/PrehistoricCaveman-PRJ7.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.test{
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(43, 43, 51);
+  font-family: PrehistoricCaveman;
+  
+}
+
+.test2{
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(231, 231, 246);
+  font-family: PrehistoricCaveman;
+  text-decoration: none;
+}
+
+.logo {
+  width: 130px;
+  height: 70px;
+  border-radius: 15%;
+  background-color: aqua;
+}
+
+
+
 .App{
     text-align: center;
 }
@@ -30,7 +64,7 @@ nav ul{
     flex-direction: column;
     list-style: none;
     justify-content: center;
-    background-color: orange;
+    background-color: lime;
     flex: 1;
   }
 
@@ -61,10 +95,15 @@ nav ul{
     height: 400px;
     width: 260px ;
     margin: 10px 30px 50px 30px;
-    background-color: purple;
+    background-color: lightsalmon;
     color: white;
     flex-wrap: wrap;
     justify-content: center;
+    border-style: solid;
+    border-width: thick;
+    border-color: grey;
+    border-radius: 5%;
+    padding-top: 30px;
   }
   
   .store-display-item ul{
@@ -82,4 +121,31 @@ nav ul{
     height: 50px;
     width: 100px;
     margin-bottom: 10px;
+  }
+
+  .cart{
+    display: flex;
+  }
+
+  .cart-items{
+    display: flex;
+    width: 30%;
+  }
+
+  .cart ul{
+    list-style: none;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cart span{
+    align-self: center;
+  }
+
+  .four{
+    width: 60%;
+  }
+  .six{
+    width: 40%;
   }

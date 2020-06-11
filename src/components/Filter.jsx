@@ -14,7 +14,7 @@ const Filters = ({products, setProducts, cartItems, setCartItems, cartTotal, set
         // console.log(result)
   
 
-    const [search, setSearch] = useState("")
+    const [search, setSearch] = useState('')
 
     const handleChange = val => 
         {
@@ -32,7 +32,13 @@ const Filters = ({products, setProducts, cartItems, setCartItems, cartTotal, set
 
     return (
         <div className="filter-main"> 
-            <form>
+            <form
+                onSubmit = { event => {
+                    event.preventDefault();
+                    
+                    setSearch('')
+                }}
+            >
                 <input 
                 value = {search}
                 placeholder='Search'

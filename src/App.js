@@ -17,7 +17,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav />
+        <Nav 
+          cartItems={cartItems}
+        />
         <Switch>
           <Route exact path="/" render = {() => (
               <Store 

@@ -22,21 +22,25 @@ function Cart({products, setProducts, cartItems, setCartItems, cartTotal, setCar
 
     return (
       <div>
-        <h1> Cart page</h1>
+        <div><h1 className="test">U.B.G.D.</h1></div>
+        
 
-        {cartItems.map((cartItems) => (
-            <div> 
+        <div className="cart">
+          <div className="six">
+            <div className="six">Total price : {}</div>
+            {cartItems.map((cartItems) => (
+              <div className="cart-items">
                 <ul>
-                    <li className='name'>{cartItems.name} </li>
-                    <li>Make: {cartItems.make}</li>
-                    <li>SN: {cartItems.serial}</li>
-                    <li>Price: {parseFloat(cartItems.price)}$</li>
+                  <li>{cartItems.name}</li>
+                  <li>By: {cartItems.make}</li>
                 </ul>
-            </div>))}
-            
-         <br />
-      <span>Total price : {}</span>
-
+                <span>Price: {parseFloat(cartItems.price)}</span>
+              </div>
+                ))}
+            <div className="six">Total price : {}</div>
+          </div>
+          <div className="four">Something you buying?</div>
+        </div>
   
       </div>
     );
