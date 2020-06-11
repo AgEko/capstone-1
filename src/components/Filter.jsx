@@ -1,72 +1,35 @@
-import React, { useState } from 'react'
-import { Checkbox, List, ListItemText, ListItem } from '@material-ui/core';
-import inventory from '../inventory.json'
-import {Link} from 'react-router-dom'
+import React from 'react'
 
-
-
-const Filters = ({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal}) => {
-
-
-
-        // const result = inventory.products.filter(p => 
-        //     Object.values(p).includes(search))
-        // console.log(result)
-  
-
-    const [search, setSearch] = useState('')
+const Filters = ({search, setSearch}) => {
 
     const handleChange = val => 
         {
-            // event.preventDefault();
             setSearch(val)
-            
-
-            
-            
         }
-
-        
-
-   
 
     return (
         <div className="filter-main"> 
             <form
                 onSubmit = { event => {
-                    event.preventDefault();
-                    
+                    event.preventDefault(); 
                     setSearch('')
                 }}
             >
-                <input 
+                <input className="searchbar" 
                 value = {search}
                 placeholder='Search'
                 type='text'
                 onChange={e => handleChange(e.target.value)}
                 >
                 </input>
-                <input 
+                <input className="searchbar"
                 type='submit' 
-                value='Submit' 
+                value='Search' 
                 />
             </form>
-            
-            
-            
         </div>
-    )
-    
+    )   
 }
 
 export default Filters;
 
-
-/* <form >
-                <input 
-                value = ""
-                placeholder='Search'
-                type='text'
-                >
-                </input>
-            </form> */

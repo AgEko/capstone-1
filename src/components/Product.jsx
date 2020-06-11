@@ -1,24 +1,10 @@
 import React, {useState} from 'react'
 
-
-function product({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal}) 
+function product({products, cartItems, setCartItems, count, setCount}) 
 {
-
-    //updating qty
-        // function decInventoryQty(i) 
-        // {
-        //     const arrayCopy =[...products]
-
-        //     arrayCopy[i].quanity -= 1
-        //     setCartItems(arrayCopy)
-
-        // }
-    //not ready yet
-
-    
     return (
         <div className='store-display-item'>
-            <div><img src= {products.image} alt={products.name + " image"}/></div>
+            <div><img className="store-display-item-img" src= {products.image} alt={products.name + " image"}/></div>
             
             <ul>
                 <li className='name'>{products.name} </li>
@@ -27,24 +13,19 @@ function product({products, setProducts, cartItems, setCartItems, cartTotal, set
                 <li>Price: {parseFloat(products.price)}$</li>
             </ul>
 
-            <button onClick={() => {
+            <button className="bungatocart"
+            onClick={() => {
 
                 setCartItems(cartItems.concat(products))
                 console.log(cartItems)
-                
 
-                //todo logic
-                //decInventoryQty(index);
-
-                //to logic
-                //setCartTotal(cartTotal + product.price)
+                setCount(count + parseFloat(products.price))
 
             }}>
             
-                Add To Cart
+                Add Cart
 
-            </button>  
-            
+            </button>              
         </div>
     )
 }

@@ -27,12 +27,9 @@ userCart must be able to hold multiples of any item.
 </h2>
 Make wireframe of site. One page || two
 
-
-
-
 Need a place to store the stockItems
   -Try the Web Storage API 
-  -Else an [] that holds objects
+  -Else an [] that holds objects || prop drill to vahalla
 
 
 Need components for 
@@ -57,25 +54,32 @@ try nice a* pens
             []Running total of items Bubble
     [-]all items inline
     
-    []Filters Section,  left side
-       [] Filters for different tags on items 
-       []Dropdown for filter
+    [-]Filters Section,  top mid
+        [-] Search By name
+        [o] Filters for different tags on items 
+        [o] Dropdown for filter
 
-    []flex grid for sales items, in center/right
-        [-]Four wide, 2nd column
+    [-]flex grid for sales items, in center/right
+        [-]3 wide,  column
 
     
-    []Cart, 
+    [-]Cart, 
         [-]new page
-        []Holds a list for current items added from storeInventory
-        []Subtotal for items 
-        []buy button (paypal has a button generator; is in html. May cause issues if imported into react.js)
+        [-]Holds a list for current items added from storeInventory
+        [+]Subtotal for items 
+        [/]buy button (paypal has a button generator; is in html. May cause issues if imported into react.js)
 
 
-    []Make the background something like officespace clean--- Scratch that we going full unga bunga now. Nose bones, clubs and dino dogs
+    [o]Make the background something like officespace clean--- Scratch that we going full unga bunga now. Nose bones, clubs and dino dogs
 
 []Store Page 
-    []
+    [-] generate store tiles 
+        [fun]
+            [-]img
+            [-]import object.elements to display
+            [-] btn to add to cart
+        [graphic]
+            []
 *
 *
 *

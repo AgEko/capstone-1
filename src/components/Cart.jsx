@@ -1,45 +1,43 @@
 import React from 'react'
-//import React, {useState} from 'react'
-// import Product from './Product'
-// import inventory from '../inventory.json'
 
-function Cart({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal}) {
-
-    // const cartDisplay= (cartItems) => {
-    //   if (cartItems.length > 0)
-    //   {
-    //     cartItems.map((cartItem, i) => (
-          
-    //     ))
-
-    //     return (
-    //     <li>{cartItems}</li>
-    //     )
-    //   }
-    // }
-    
-    
+function Cart({cartItems, setCartItems,count, setCount}) {
 
     return (
       <div>
         <div><h1 className="test">U.B.G.D.</h1></div>
         
-
         <div className="cart">
           <div className="six">
-            <div className="six">Total price : {}</div>
+            <div className="six">Total price : {count}</div>
             {cartItems.map((cartItems) => (
+              
               <div className="cart-items">
+                <div><img className="cart-items-img" src= {cartItems.image} alt={cartItems.name + " image"}/></div>
                 <ul>
                   <li>{cartItems.name}</li>
                   <li>By: {cartItems.make}</li>
                 </ul>
-                <span>Price: {parseFloat(cartItems.price)}</span>
+                <span>Price: {cartItems.price}</span>
               </div>
+              
                 ))}
-            <div className="six">Total price : {}</div>
+                
+            <div className="six">Total price : {count}</div>
           </div>
-          <div className="four">Something you buying?</div>
+          <div className="cart-checkout">
+          <div>Something you buying?</div>
+          <div></div><br></br>
+          <div className="bigpay">{count} Bungas</div><br></br>
+          <div>You pay</div>
+          <div>You pay now</div><br></br>
+          <button className="pay-bungas"
+          onClick={() => {
+            setCartItems([])
+            setCount(0)
+          }}
+          
+          >Pay Bungas</button>
+          </div>
         </div>
   
       </div>

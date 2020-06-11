@@ -4,7 +4,6 @@ import './App.css';
 import Nav from './components/Nav'
 import Store from './components/Store'
 import Cart from './components/Cart'
-import Result from './components/Result'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 
@@ -12,7 +11,11 @@ function App() {
   const [products, setProducts] = useState(inventory.products)
   const [cartItems, setCartItems] = useState([])
   const [cartTotal, setCartTotal] = useState(0)
+  const [search, setSearch] = useState('')
+  const [count, setCount] = useState(0)
+    
 
+  
 
   return (
     <Router>
@@ -29,6 +32,10 @@ function App() {
               setCartItems={setCartItems}
               cartTotal={cartTotal}
               setCartTotal={setCartTotal}
+              search={search}
+              setSearch={setSearch}
+              count={count}
+              setCount={setCount}
               />
           )}/> 
           <Route exact path="/Store" render = {() => (
@@ -39,26 +46,18 @@ function App() {
               setCartItems={setCartItems}
               cartTotal={cartTotal}
               setCartTotal={setCartTotal}
-              />
-          )}/> 
-          <Route exact path="/Result" render = {() => (
-              <Result 
-              products={products} 
-              setProducts={setProducts} 
-              cartItems={cartItems}
-              setCartItems={setCartItems}
-              cartTotal={cartTotal}
-              setCartTotal={setCartTotal}
+              search={search}
+              setSearch={setSearch}
+              count={count}
+              setCount={setCount}
               />
           )}/> 
           <Route exact path="/Cart" render = {() => (
               <Cart 
-              products={products} 
-              setProducts={setProducts} 
               cartItems={cartItems}
               setCartItems={setCartItems}
-              cartTotal={cartTotal}
-              setCartTotal={setCartTotal}
+              count={count}
+              setCount={setCount}
               />
           )}/> 
           

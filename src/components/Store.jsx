@@ -2,19 +2,13 @@ import React from 'react'
 import Filter from './Filter'
 import StoreDisplay from './StoreDisplay'
 
-function Store({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal}) {
-
-    
+function Store({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal, search, setSearch, count, setCount}) {
 
     return (
         <div className="main-page">
             <Filter 
-            products={products} 
-            setProducts={setProducts} 
-            cartItems={cartItems}
-            setCartItems={setCartItems}
-            cartTotal={cartTotal}
-            setCartTotal={setCartTotal}
+            search={search}
+            setSearch={setSearch}
             />
             <StoreDisplay
             products={products} 
@@ -23,6 +17,9 @@ function Store({products, setProducts, cartItems, setCartItems, cartTotal, setCa
             setCartItems={setCartItems}
             cartTotal={cartTotal}
             setCartTotal={setCartTotal}
+            search={search}
+            count={count}
+            setCount={setCount}
             />
         </div>
     );
