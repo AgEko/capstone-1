@@ -2,113 +2,118 @@
   "products" : 
   [
     {
-      "id": "1",
+      "id": 0,
       "name": "Bedrock Baseline",
       "make": "Schweeb",
-      "tags": "car",
+      "tag": "car",
       "image": "/images/logo192.png",
       "serial": "404",
-      "price": "-50.01"
+      "price": "-50.01",
+      "inventoryQty": 3,
+      "cartQty": 1
     },
     {
-      "id": "2",
+      "id": 1,
       "name": "Garbage Disposal",
       "make": "Gork & Mork",
-      "tags": "kitchen",
+      "tag": "kitchen",
       "image": "/images/logo192.png",
       "serial": "404",
-      "price": "200.01"
+      "price": "200.01",
+      "inventoryQty": 3,
+      "cartQty": 1
     },
     {
-      "id": "3",
+      "id": 2,
       "name": "Alarm Clock",
       "make": "Glorb",
-      "tags": "car",
+      "tag": "appliances",
       "image": "/images/logo192.png",
       "serial": "404",
-      "price": "-70.01"
+      "price": "-70.01",
+      "inventoryQty": 3,
+      "cartQty": 1
       },
       {
-        "id": "4",
+        "id": 3,
         "name": "Juicer",
         "make": "Gork & Mork",
-        "tags": "kitchen",
+        "tag": "kitchen",
         "image": "/images/logo192.png",
         "serial": "404",
         "price": "200.01"
       },
       {
-        "id": "5",
+        "id": 4,
         "name": "Can Opener",
         "make": "Gork & Mork",
-        "tags": "kitchen",
+        "tag": "kitchen",
         "image": "/images/logo192.png",
         "serial": "404",
         "price": "200.01"
       },
       {
-        "id": "6",
+        "id": 5,
         "name": "Rotisserie Kit",
         "make": "Gork & Mork",
-        "tags": "appliance",
+        "tag": "yard",
         "image": "/images/logo192.png",
         "serial": "404",
         "price": "200.01"
       },
       {
-        "id": "7",
+        "id": 6,
         "name": "Sewing Machine",
         "make": "Glorb",
-        "tags": "appliance",
+        "tag": "appliance",
         "image": "/images/logo192.png",
         "serial": "404",
         "price": "200.01"
       },
       {
-        "id": "8",
+        "id": 7,
         "name": "Telephone",
         "make": "Glorb",
-        "tags": "appliance",
+        "tag": "appliance",
         "image": "/images/logo192.png",
         "serial": "404",
         "price": "200.01"
       },
       {
-        "id": "9",
+        "id": 8,
         "name": "Vacuum",
         "make": "ZugZug",
-        "tags": "appliance",
+        "tag": "appliance",
         "image": "/images/logo192.png",
         "serial": "404",
         "price": "200.01"
       },
       {
-        "id": "10",
+        "id": 9,
         "name": "Lawn Mower",
         "make": "Borgle",
-        "tags": "yard",
+        "tag": "yard",
         "image": "/images/logo192.png",
         "serial": "404",
         "price": "200.01"
       },
       {
-        "id": "11",
+        "id": 10,
         "name": "Hedge Trimmer",
         "make": "Borgle",
-        "tags": "yard",
+        "tag": "yard",
         "image": "/images/logo192.png",
         "serial": "404",
         "price": "200.01"
       },
       {
-        "id": "12",
+        "id": 11,
         "name": "Water Heater",
         "make": "Borgle",
-        "tags": "yard",
+        "tag": "yard",
         "image": "/images/logo192.png",
         "serial": "404",
         "price": "200.01"
-      }
-      
+      } 
   ]
 }

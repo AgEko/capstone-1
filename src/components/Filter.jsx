@@ -5,7 +5,8 @@ import {Link} from 'react-router-dom'
 
 
 
-const Filters = (props) => {
+const Filters = ({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal}) => {
+
 
 
         // const result = inventory.products.filter(p => 
@@ -19,7 +20,7 @@ const Filters = (props) => {
         {
             // event.preventDefault();
             setSearch(val)
-            console.log("value: ", val, "  :" , search)
+            
 
             
             
@@ -39,20 +40,13 @@ const Filters = (props) => {
                 onChange={e => handleChange(e.target.value)}
                 >
                 </input>
-                <input type='submit' value='Submit' />
+                <input 
+                type='submit' 
+                value='Submit' 
+                />
             </form>
             
-            <List >
-            <h3>Filters</h3>
-                <ListItem>
-                    <Checkbox>VOID need balonga</Checkbox>
-
-                    <ListItemText>
-                        Checkbox 01
-                    </ListItemText>   
-                </ListItem>
-               
-            </List>
+            
             
         </div>
     )

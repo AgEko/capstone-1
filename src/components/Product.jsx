@@ -1,31 +1,51 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 
-function product(props) {
+function product({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal}) 
+{
 
-    // const [cartItems, setCartItems] = useState()
+    //updating qty
+        // function decInventoryQty(i) 
+        // {
+        //     const arrayCopy =[...products]
 
-    const addToCart = () => {
-        console.log("MISTOR MONEYBAGS")
-    }
+        //     arrayCopy[i].quanity -= 1
+        //     setCartItems(arrayCopy)
 
+        // }
+    //not ready yet
 
     
     return (
-    
         <div className='store-display-item'>
-            <div><img src= {props.product.image} alt={props.product.name + " image"}/></div>
+            <div><img src= {products.image} alt={products.name + " image"}/></div>
+            
             <ul>
-                <li className='name'>{props.product.name} </li>
-                <li>Make: {props.product.make}</li>
-                <li>SN: {props.product.serial}</li>
-                <li>Price: {parseFloat(props.product.price)}$</li>
+                <li className='name'>{products.name} </li>
+                <li>Make: {products.make}</li>
+                <li>SN: {products.serial}</li>
+                <li>Price: {parseFloat(products.price)}$</li>
             </ul>
-            <button onClick={addToCart}>Buy</button>  
+
+            <button onClick={() => {
+
+                setCartItems(cartItems.concat(products))
+                console.log(cartItems)
+                
+
+                //todo logic
+                //decInventoryQty(index);
+
+                //to logic
+                //setCartTotal(cartTotal + product.price)
+
+            }}>
+            
+                Add To Cart
+
+            </button>  
             
         </div>
-        
-    
     )
 }
 export default product;

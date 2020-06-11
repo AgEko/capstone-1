@@ -1,19 +1,29 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Product from './Product'
 import inventory from '../inventory.json'
 
 
-const Filters = (props) => {
+const Filters = ({products, setProducts, cartItems, setCartItems, cartTotal, setCartTotal}) => {
+
    
+    //Todo add logic for setCartItems
+    //const [cartItems, setCartItems] = useState([])
+
     return (
         <div className='store-display'>
             <div className='store-display-inner'>
                     
 
-                {inventory.products.map((product) => (
-            <Product 
-            key={product.id}
-            product={product}
+                {products.map((products) => (
+            <Product  
+            key={products.id}
+            products={products} 
+
+            setProducts={setProducts} 
+            cartItems={cartItems}
+            setCartItem={setCartItems}
+            cartTotal={cartTotal}
+            setCartTotal={setCartTotal}
             />
       ))}
 

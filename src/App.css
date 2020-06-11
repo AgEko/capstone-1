@@ -20,33 +20,36 @@ nav ul{
 }
 
 .main-page{
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    
   }
   
   
   .filter-main{
     display: flex;
-    height: 400px;
+    min-height: 8vh;
     flex-direction: column;
     list-style: none;
+    justify-content: center;
     background-color: orange;
     flex: 1;
+  }
+
+  .filter-main input{
+    width: auto;
   }
   
   .store-display{
     display: flex;
-    height: 100px;
+    height: auto;
     background-color: yellow;
     flex: 5;
   }
   
   .store-display-inner{
     display: flex;
+    margin: auto;
     padding-top: 20px;
-    width: 100%;
+    width: 70%;
     flex-direction: row;
     justify-content:space-evenly;
     flex-wrap: wrap;
