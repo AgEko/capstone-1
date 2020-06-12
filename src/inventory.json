@@ -1,0 +1,120 @@
+{
+  "products" : 
+  [
+    {
+      "id": 0,
+      "name": "ChiselQuick 3000BC",
+      "make": "Schweeb",
+      "tag": "personal",
+      "image": "/images/camera.jpg",
+      "serial": "7643582",
+      "price": "240.00",
+      "inventoryQty": 3,
+      "cartQty": 1
+    },
+    {
+      "id": 1,
+      "name": "Can Opener",
+      "make": "Gork & Mork",
+      "tag": "kitchen",
+      "image": "/images/can-opener.jpg",
+      "serial": "4653815",
+      "price": "8.00",
+      "inventoryQty": 3,
+      "cartQty": 1
+    },
+    {
+      "id": 2,
+      "name": "FootMobile",
+      "make": "Florb",
+      "tag": "car",
+      "image": "/images/car.jpg",
+      "serial": "1357955",
+      "price": "8500.01",
+      "inventoryQty": 3,
+      "cartQty": 1
+      },
+      {
+        "id": 3,
+        "name": "Juicer",
+        "make": "Gork & Mork",
+        "tag": "kitchen",
+        "image": "/images/juicer.jpg",
+        "serial": "9364568",
+        "price": "15.99"
+      },
+      {
+        "id": 4,
+        "name": "Rotisserie Kit",
+        "make": "Zorb's Worl'",
+        "tag": "yard",
+        "image": "/images/fire-spit.jpg",
+        "serial": "4638528",
+        "price": "45.50"
+      },
+      {
+        "id": 5,
+        "name": "G&M Garbage Disposal",
+        "make": "Gork & Mork",
+        "tag": "kitchen",
+        "image": "/images/garbage-disposal-bird.jpg",
+        "serial": "7771356",
+        "price": "89.99"
+      },
+      {
+        "id": 6,
+        "name": "Sewing Machine",
+        "make": "Gatherer's secret",
+        "tag": "appliance",
+        "image": "/images/sewing-machine.jpg",
+        "serial": "1645387",
+        "price": "146.00"
+      },
+      {
+        "id": 7,
+        "name": "Telephone",
+        "make": "Me Talk Far",
+        "tag": "appliance",
+        "image": "/images/phone-horn.jpg",
+        "serial": "9467583",
+        "price": "62.00"
+      },
+      {
+        "id": 8,
+        "name": "Vacuum",
+        "make": "Hodor",
+        "tag": "appliance",
+        "image": "/images/vacuum.jpg",
+        "serial": "5675437",
+        "price": "180.00"
+      },
+      {
+        "id": 9,
+        "name": "LawnMower",
+        "make": "Gatherer's secret",
+        "tag": "yard",
+        "image": "/images/lawnmower.jpg",
+        "serial": "404",
+        "price": "58.00"
+      },
+      {
+        "id": 10,
+        "name": "Hedge Trimmer",
+        "make": "Zorb's Worl",
+        "tag": "yard",
+        "image": "/images/hedgetrimmer.jpg",
+        "serial": "28453112",
+        "price": "19.00"
+      },
+      {
+        "id": 11,
+        "name": "Water Heater",
+        "make": "Krunk's Funk",
+        "tag": "yard",
+        "image": "/images/water-heater.jpg",
+        "serial": "404",
+        "price": "340.00"
+      } 
+
+  ]
+}
